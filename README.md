@@ -536,7 +536,7 @@ All assets will be saved to the `assets/` directory.
 
 ---
 
-## 📚 Technical Deep Dive
+## 📚 Technical Aspects
 
 ### Statistical Methodology
 
