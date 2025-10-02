@@ -18,7 +18,7 @@
 
 **The Business Problem:** Food delivery platforms lose $1.2B annually due to inaccurate delivery time predictions. Late deliveries damage customer satisfaction (27% increase in churn), while overly conservative estimates reduce order velocity by 15%.
 
-Objective: Predict the delivery time (in minutes) for food orders based on features like distance, weather, traffic level, time of day, vehicle type, preparation time, and courier experience.<img width="468" height="67" alt="image" src="https://github.com/user-attachments/assets/a82a6cda-6d99-4b02-95cd-71dc2ac11644" />
+Objective: Predict the delivery time (in minutes) for food orders based on features like distance, weather, traffic level, time of day, vehicle type, preparation time, and courier experience.
 
 
 
