@@ -1,4 +1,4 @@
-# 🚴‍♂️ Food Delivery Timeline Prediction System
+#  Food Delivery Timeline Prediction System
 ### *Optimizing Last-Mile Logistics with Machine Learning*
 
 <div align="center">
