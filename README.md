@@ -583,19 +583,6 @@ Contributions welcome! Areas of interest:
 - 📖 Documentation improvements
 
 ---
-
-## 📧 Contact & Links
-
-**Author:** Luke Opany  
-**GitHub:** [@LukeOpany](https://github.com/LukeOpany)  
-**Project Link:** [food_delivery_timelines](https://github.com/LukeOpany/food_delivery_timelines)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 🙏 Acknowledgments
