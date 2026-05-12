@@ -2,7 +2,7 @@
 
 This project predicts food delivery time in minutes from order, courier, traffic, weather, and preparation-time data.
 
-The project is intentionally small and notebook-friendly. The main goal is to show a clear machine learning workflow:
+The main goal is to show a clear machine learning workflow:
 
 1. Load the delivery dataset.
 2. Explore the features and target.
