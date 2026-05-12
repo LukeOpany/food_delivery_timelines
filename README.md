@@ -33,7 +33,6 @@ The dataset is [Food_Delivery_Times.csv](Food_Delivery_Times.csv). It contains 1
 | --- | --- |
 | [deliverytines.ipynb](deliverytines.ipynb) | Exploratory notebook with charts, preprocessing, training, and evaluation |
 | [train_model.py](train_model.py) | Clean reproducible training script |
-| [missing_data_helper.py](missing_data_helper.py) | Optional helper for inspecting missing values and choosing imputation strategies |
 | [requirements.txt](requirements.txt) | Python dependencies |
 
 ## Quick Start
