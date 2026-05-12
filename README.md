@@ -35,14 +35,35 @@ The dataset is [Food_Delivery_Times.csv](Food_Delivery_Times.csv). It contains 1
 | [train_model.py](train_model.py) | Clean reproducible training script |
 | [requirements.txt](requirements.txt) | Python dependencies |
 
+## Notebook Workflow
+
+The notebook is organized as a guided walkthrough:
+
+1. Import libraries.
+2. Load the dataset with a portable relative path.
+3. Inspect the data with `head`, `shape`, `info`, `describe`, and missing-value checks.
+4. Identify the target column and feature columns.
+5. Explore the target distribution and relationships between features and delivery time.
+6. Separate inputs (`X`) from the target (`y`).
+7. Split the data into training and test sets.
+8. Build preprocessing steps for numeric and categorical columns.
+9. Train a `RandomForestRegressor`.
+10. Evaluate the model with MAE, RMSE, and R2.
+
 ## Quick Start
 
-Install dependencies:
+Create a virtual environment and install dependencies:
+
+```bash
+python3.12 -m venv --prompt food-delivery .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+If `python3.12` is not available, use your installed Python 3 version:
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 ```
 
 Run the reproducible training script:
@@ -57,6 +78,8 @@ Or open the notebook:
 jupyter notebook deliverytines.ipynb
 ```
 
+When using VS Code, select the `.venv/bin/python` interpreter or notebook kernel before running cells.
+
 ## Modeling Approach
 
 The training script uses a scikit-learn pipeline:
@@ -69,6 +92,20 @@ The training script uses a scikit-learn pipeline:
 - Reports MAE, RMSE, and R2 on a held-out test set.
 
 MAE is the most intuitive metric here because it answers: "On average, how many minutes off are the predictions?"
+
+Example output:
+
+```text
+Food Delivery Time Model
+========================
+Rows: 1,000
+Target: Delivery_Time_min
+MAE:  6.72 minutes
+RMSE: 9.56 minutes
+R2:   0.796
+```
+
+In beginner-friendly terms, this means the model is off by about 6 to 7 minutes on average.
 
 ## Notes
 
