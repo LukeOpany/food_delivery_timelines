@@ -106,7 +106,3 @@ R2:   0.796
 ```
 
 In beginner-friendly terms, this means the model is off by about 6 to 7 minutes on average.
-
-## Notes
-
-The notebook is useful for learning and experimentation. The script is useful when you want a clean, repeatable result without manually running notebook cells.
