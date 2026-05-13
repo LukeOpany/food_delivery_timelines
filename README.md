@@ -105,4 +105,4 @@ RMSE: 9.56 minutes
 R2:   0.796
 ```
 
-In beginner-friendly terms, this means the model is off by about 6 to 7 minutes on average.
+This means the model is off by about 6 to 7 minutes on average.
